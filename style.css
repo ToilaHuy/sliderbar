@@ -35,7 +35,7 @@ html {
 }
 .menu-icon {
   font-size: 2rem;
-  padding: 8px 8px;
+  padding: 10px 11.25px;
 
   border-radius: 100%;
   color: #666464;
@@ -55,7 +55,7 @@ html {
 .header__search {
 }
 .header__logo {
-  width: 96px;
+  width: 120px;
   height: 56px;
   padding: 18px 14px 18px 16px;
 }
@@ -74,6 +74,7 @@ html {
 .nav--slide {
   max-width: 240px;
   padding-top: 12px;
+  padding-bottom: 12px;
   overflow-y: scroll;
   height: 100vh;
   display: none;
@@ -94,7 +95,7 @@ html {
 }
 
 .nav--list {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .nav__list {
   list-style: none;
@@ -106,13 +107,13 @@ html {
 .nav__list--item {
   min-height: 40px;
   font-size: 1.4rem;
-  padding: 0 24px;
+  padding: 0 25px;
   display: flex;
   align-items: center;
   cursor: pointer;
 }
 .nav__list--item:hover {
-  background-color: #dbdbdb;
+  background-color: #e6e6e6;
 }
 .list--item-link {
   text-decoration: none;
@@ -160,13 +161,12 @@ html {
 }
 .nav--slide--small .nav__list--icon {
   padding: 0px;
-  margin-right: 19px;
-  margin-left: 16px;
+  margin-right: 14px;
+  margin-left: 14.5px;
   margin-bottom: 6px;
 }
 .nav--slide--small .nav__list--item {
-  padding: 16px 0 14px;
-
+  padding: 20px 0 14px;
   max-width: 72px;
   min-width: 72px;
 }
